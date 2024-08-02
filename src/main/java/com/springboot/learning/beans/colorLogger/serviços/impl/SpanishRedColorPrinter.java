@@ -6,11 +6,15 @@
 package com.springboot.learning.beans.colorLogger.serviços.impl;
 
 import com.springboot.learning.beans.colorLogger.serviços.RedColorPrinter;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author Leite Lima
  */
+
+@Service
 public class SpanishRedColorPrinter implements RedColorPrinter {
     
     @Override
