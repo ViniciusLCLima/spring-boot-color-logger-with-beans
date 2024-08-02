@@ -5,11 +5,14 @@
  */
 package com.springboot.learning.beans.colorLogger.serviços.impl;
 import com.springboot.learning.beans.colorLogger.serviços.BlueColorPrinter;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Leite Lima
  */
+
+@Component
 public class EnglishBlueColorPrinter implements BlueColorPrinter{
     
     @Override

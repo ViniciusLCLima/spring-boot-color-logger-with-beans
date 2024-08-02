@@ -9,11 +9,13 @@ import com.springboot.learning.beans.colorLogger.serviços.BlueColorPrinter;
 import com.springboot.learning.beans.colorLogger.serviços.ColorsPrinter;
 import com.springboot.learning.beans.colorLogger.serviços.RedColorPrinter;
 import com.springboot.learning.beans.colorLogger.serviços.YellowColorPrinter;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Leite Lima
  */
+@Component
 public class ColorsPrinterImpl implements ColorsPrinter{
     private RedColorPrinter redColorPrinter;
     private BlueColorPrinter blueColorPrinter;
